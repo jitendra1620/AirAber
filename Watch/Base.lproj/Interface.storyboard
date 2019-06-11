@@ -155,6 +155,51 @@
             </objects>
             <point key="canvasLocation" x="10" y="109"/>
         </scene>
+        <!--CheckIn-->
+        <scene sceneID="P6K-aG-Ayr">
+            <objects>
+                <controller identifier="CheckIn" id="UCm-jN-1YF" customClass="CheckInInterfaceController" customModule="Watch_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="B92-iv-shP">
+                            <items>
+                                <group height="30" alignment="center" spacing="4" id="AjE-cn-WPX">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="MEL" id="exD-HT-YfQ">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                        <imageView width="24" height="20" alignment="center" verticalAlignment="center" image="Plane" id="HLD-eU-fZ3">
+                                            <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                        <label alignment="right" verticalAlignment="center" text="SFO" id="HoU-VQ-9Bg">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <button alignment="center" verticalAlignment="center" id="6LC-bF-Lcb">
+                                    <group key="contentGroup" width="78" height="78" alignment="left" radius="39" id="oaf-CZ-pqR">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Check In" id="Rky-k6-cpn">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                    <connections>
+                                        <action selector="checkInButtonTapped" destination="UCm-jN-1YF" id="2fs-Bf-T6T"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="backgroundGroup" destination="B92-iv-shP" id="XJj-pI-gL6"/>
+                        <outlet property="checkInButton" destination="6LC-bF-Lcb" id="dZK-cE-CEc"/>
+                        <outlet property="destinationLabel" destination="HoU-VQ-9Bg" id="qD9-QR-mTS"/>
+                        <outlet property="originLabel" destination="exD-HT-YfQ" id="c4y-p5-rdM"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
     </scenes>
     <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
 </document>

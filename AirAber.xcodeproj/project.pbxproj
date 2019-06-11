@@ -29,6 +29,7 @@
 		C69EEDD022AE85DC00849F52 /* FlightIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EEDCF22AE85DB00849F52 /* FlightIC.swift */; };
 		C6CB6C0322AF707500004390 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CB6C0222AF707500004390 /* ScheduleInterfaceController.swift */; };
 		C6CB6C0522AF73D300004390 /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CB6C0422AF73D300004390 /* FlightRowController.swift */; };
+		C6CB6C0722AFB60600004390 /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CB6C0622AFB60600004390 /* CheckInInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		C69EEDCF22AE85DB00849F52 /* FlightIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightIC.swift; sourceTree = "<group>"; };
 		C6CB6C0222AF707500004390 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 		C6CB6C0422AF73D300004390 /* FlightRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
+		C6CB6C0622AFB60600004390 /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				C69EEDCF22AE85DB00849F52 /* FlightIC.swift */,
 				C6CB6C0222AF707500004390 /* ScheduleInterfaceController.swift */,
 				C6CB6C0422AF73D300004390 /* FlightRowController.swift */,
+				C6CB6C0622AFB60600004390 /* CheckInInterfaceController.swift */,
 				C69EEDB922AE751B00849F52 /* ExtensionDelegate.swift */,
 				C69EEDBB22AE751B00849F52 /* NotificationController.swift */,
 				C69EEDBD22AE751B00849F52 /* ComplicationController.swift */,
@@ -363,6 +366,7 @@
 			files = (
 				C6CB6C0322AF707500004390 /* ScheduleInterfaceController.swift in Sources */,
 				C69EEDBC22AE751B00849F52 /* NotificationController.swift in Sources */,
+				C6CB6C0722AFB60600004390 /* CheckInInterfaceController.swift in Sources */,
 				C69EEDCE22AE760200849F52 /* Flight.swift in Sources */,
 				C6CB6C0522AF73D300004390 /* FlightRowController.swift in Sources */,
 				C69EEDD022AE85DC00849F52 /* FlightIC.swift in Sources */,
